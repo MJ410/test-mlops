@@ -4,8 +4,8 @@ import requests
 API_ENDPOINT = "http://f337-115-119-250-30.ngrok.io/train"
 # data to be sent to api
 data = {
-	"url": "https://github.com/MJ410/MLops-test/tree/master/Proj_1",
-	"branch_name": "master",
+	"url": "https://github.com/MJ410/test-mlops",
+	"branch_name": "main",
 	"algo_type": "Regression"
 }
 # sending post request and saving response as response object
